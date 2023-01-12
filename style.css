@@ -8,7 +8,10 @@
     font-family: ru_Expressway; 
   }
   
-  
+   video::-webkit-media-controls {
+    display:none !important;
+  }
+ 
  
   
   button {
