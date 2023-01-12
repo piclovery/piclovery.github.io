@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Главная</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <script src="script.js"></script>
+
+	</head>
+  
+	<body >			
+    <video preload autoplay controls loop  id="myVideo">
+      <source src="__.mp4" type="video/mp4">
+      <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', ()=>{
+              var a = document.getElementsByTagName('video')[0]
+              a.volume = 0.2
+        });
+        </script>
+    </video>
+
+        <div class="wrapper">
+          <button onclick="onclick = gamees(); gamees2();" id="button" class="button-35" role="button">piclove</button> 	                 
+
+                     
+       
+
+                <div class="content" id="content" style="display: none;" >
+                  <div class="case" >     
+                      <div class="container">
+                        <div class="ticker-box">
+                          <div class="ticker-title">
+                            picture lover
+                          </div>
+                          <marquee id="ticker" class="ticker-body">
+                            интроверт | социофоб | снова забыл поспать | убиваю принцесс, спасаю драконов | в активном одиночестве | ленивый | помогите | друзей со временем становится всё меньше | злой | стыдно | когда погасну, что потом? | neприятно | недовольный | любитель картинок | страшно чувствовать себя лишним там, где недавно был необходимым | тупой | не верю в себя | не верю себе | жизнь это дорогое удовольствие | не видишь добра твори его сам | хруст рёбер | но люди добро не ценят | не верю в хороший конец | 
+                          </marquee>
+                        </div>
+                    
+                        <script>
+                          let ticker = document.getElementById('ticker');
+                          ticker.onmouseenter = (e) => {e.target.stop()}
+                          ticker.onmouseleave = (e) => {e.target.start()}
+                        </script>
+                      </div>
+                    </div>
+                  <div class="leftcontent">
+                    <div > <img src="ya.png" alt="" style="width: 40px; height: 40px;"></div>
+                    <div>
+                      <a href="vk.com" ><img src="vk.png"></a>
+                      <a href="vk.com" ><img style="width: 90px; height: 90px;" src="steam.png"></a>
+                      <a href="vk.com" ><img src="discord.png"></a>
+                      <a href="vk.com" ><img src="osu.png"></a>
+                      <a href="vk.com" ><img src="anime.png"></a>
+
+
+                    </div>
+                  </div>
+ 
+                </div>	
+            </div>                                         
+         
+		</div>
+    
+	</body>
+</html>
+
+
+
