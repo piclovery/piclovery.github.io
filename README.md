@@ -1,2 +1,0 @@
-# piclovery.github.io
-piclove
