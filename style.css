@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Perfect DOS VGA 437 Win.ttf"; 
+    src: url("/fonts/Perfect DOS VGA 437 Win.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+
+  @media screen and (max-width: 1280px) { div.contentblock {width: 1200px;} }
+  @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
+
+
+
+.contentt2{
+
+    display: flex
+;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.imo{
+}
+
+p{
+    font-family:'Perfect DOS VGA 437 Win.ttf';
+}
+
+a{
+    font-family:'Perfect DOS VGA 437 Win.ttf';
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+}
+
+body {
+    line-height: 1;
+    background-size: cover;
+    background-color: blue;
+
+    background-position: fixed;
+    cursor: url('imagine/cur/pixel.cur'), auto;
+
+}
+
+.ds a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.ds a:hover{
+    font-size: 360%; 
+    transition: 1s;
+
+    color: hsl(216, 100%, 51%); /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+.osu a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.osu a:hover{
+    font-size: 360%; 
+    transition: 1s;
+
+    color: rgb(255, 1, 213); /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+.s a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.s a:hover{
+    transition: 1s;
+    font-size: 360%; 
+    color: #797979; /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+.steam a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.steam a:hover{
+    font-size: 360%; 
+    transition: 1s;
+
+    color: #0a199b; /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+.tg a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.tg a:hover{
+    font-size: 360%; 
+    transition: 1s;
+
+    color: #3ca5fc; /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+.tw a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.tw a:hover{
+    font-size: 360%; 
+    transition: 1s;
+
+    color: #7700ff; /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+.vk a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.vk a:hover{
+    font-size: 360%; 
+    transition: 1s;
+
+    color: #0084ff; /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+.y a{
+    transition: 0.5s;
+
+    font-size: 300%; 
+    text-decoration: none;
+        color: #ffffff; /* Цвет обычной ссылки */
+        padding: 2px; /* Поля вокруг текста */
+      
+}
+
+.y a:hover{
+    font-size: 360%; 
+    transition: 1s;
+
+    color: #ff0000; /* Цвет обычной ссылки */
+    padding: 0px; /* Поля вокруг текста */
+    background-color: black;
+}
+
+
+.urll{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
